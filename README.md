@@ -2,7 +2,7 @@
 Raspberry Pi based meter camera
 
 Basic implementation of a Rasberry Pi based meter camera.
-Takes a picture on an interval and submits to an mqtt server with base64 image conversion.
+Allows for the Pi to take a picture on an interval and submits to an mqtt server with base64 image conversion, or to respond to mqtt commands for image capture.
 
 Features include a timed mode to take pictures and transmit via mqtt on a specified interval.
 
