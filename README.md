@@ -15,6 +15,8 @@ meter-sub.py - Allows the device to listen for commands issued via mqtt to take 
 
 meter-pub-timed.py - Allows the device to submit a picture on a timed interval and submit base64 encoded pic via mqtt.
 
+pid - Temp storage file for script process id (this is sloppy, needs fixing)
+
 
 
 
