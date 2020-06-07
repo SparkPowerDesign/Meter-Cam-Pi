@@ -9,7 +9,7 @@ Features include a timed mode to take pictures and transmit via mqtt on a specif
 
 Files Included:
 
-meter-pub.py - Allows the device to submit a picture when ran via mqtt.
+meter-pub.py - Allows the device to submit a base64 encoded pic when ran via mqtt (One shot).
 
 meter-sub.py - Allows the device to listen for commands issued via mqtt to take a picture and submit base64 encoded pic via mqtt.
 
