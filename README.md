@@ -16,6 +16,7 @@ meter-sub.py - Allows the device to listen for commands issued via mqtt to take 
 meter-pub-timed.py - Allows the device to submit a picture on a timed interval and submit base64 encoded pic via mqtt.
 
 
+
 Written in python
 
 Uses Raspberry Pi hardware equiped with a Pi Cam.
