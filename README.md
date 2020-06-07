@@ -6,10 +6,13 @@ Takes a picture on an interval and submits to an mqtt server with base64 image c
 
 Features include a timed mode to take pictures and transmit via mqtt on a specified interval.
 
+
 Files Included:
 
 meter-pub.py - Allows the device to submit a picture when ran via mqtt.
+
 meter-sub.py - Allows the device to listen for commands issued via mqtt to take a picture and submit base64 encoded pic via mqtt.
+
 meter-pub-timed.py - Allows the device to submit a picture on a timed interval and submit base64 encoded pic via mqtt.
 
 
